@@ -1,0 +1,23 @@
+{
+  "name": "NodeToArduino",
+  "version": "0.0.1",
+  "description": "Connect your arduino to the node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JipRoos/ArduinoToNodeJS.git"
+  },
+  "author": "Jip Roos",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/JipRoos/ArduinoToNodeJS/issues"
+  },
+  "dependencies": {
+    "socket.io": "~0.9.16",
+    "serialport": "~1.2.5",
+    "express": "~3.4.4"
+  }
+}
