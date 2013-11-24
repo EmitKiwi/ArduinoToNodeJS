@@ -6,7 +6,7 @@ var serialport = require("serialport");
 var SerialPort = serialport.SerialPort;
 
 // USB PORT - change this into your port
-// You can check this at yout 
+// You can check this at youre arduino application 
 var portName = "/dev/tty.usbmodemfa131";
 var app = express();
  
